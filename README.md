@@ -1,3 +1,3 @@
-# HusPy
+# PyBao
 
-An implementation of *Hus*, an old african game where you put gemstones in little round depressions.
+An implementation of *Bao*, an old african game where you put gemstones in little round pits.
