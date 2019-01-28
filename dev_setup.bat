@@ -14,8 +14,8 @@ IF %pypy%==n %path% -m venv %~dp0venv
 IF %pypy%==y MKDIR %~dp0pypyvenv
 IF %pypy%==y %path% -m venv %~dp0pypyvenv
 ECHO Appending Development Directory to PYTHONPATH ...
-IF %pypy%==n > %~dp0venv\Lib\site-packages\husPy.pth ECHO %~dp0\
-IF %pypy%==y > %~dp0pypyvenv\site-packages\husPy.pth ECHO %~dp0\
+IF %pypy%==n > %~dp0venv\Lib\site-packages\pyBao.pth ECHO %~dp0\
+IF %pypy%==y > %~dp0pypyvenv\site-packages\pyBao.pth ECHO %~dp0\
 ECHO ##################################
 ECHO Installing Dependencies ...
 ECHO ##################################
